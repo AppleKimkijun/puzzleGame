@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --main-color: #E6DFD0;
+    --main-background: #1F2125;
+}
+
+body {
+    color: var(--main-color);
+    background-color: var(--main-background);
+}
+
+
+ul {
+    list-style: none;
+}
+
+.puzzle-field {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrap-all {
+    margin-right: 7vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.play-time {
+    font-family: 'Gugi', cursive;
+    font-size: 8vw;
+    color: var(--main-color);
+}
+
+.image-container {
+    margin-top: 1rem;
+    box-shadow: 0 0 8px 6px #6c6c6c;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.image-container li {
+    width: 100px;
+    height: 100px;
+    color: #fff;
+    background: url("https://placeimg.com/400/400/animals/sepia");
+    border: .1px solid var(--main-background);
+}
+
+.start-button {
+    background: var(--main-color);
+    color: var(--main-background);
+    border-radius: 20px;
+    padding: 1rem 2rem;
+    margin-top: 2rem;
+    font-size: 2vw;
+    font-family: 'Gugi', cursive;
+
+
+}
+
+.game-text {
+    position: absolute;
+    font-size: 45px;
+    color: #67c23a;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
+.wrap-title {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Gugi', cursive;
+
+    text-transform: capitalize;
+}
+
+.img-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-title {
+    font-size: 5vw;
+    margin-bottom: 2vh;
+}
+
+.sub-title {
+    font-size: 1.5vw;
+    margin-bottom: 5vh;
+}
+
+.text-title {
+    font-family: 'Gugi', cursive;
+    margin-bottom: 7vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-title li {
+    margin-bottom: 2vh;
+    font-size: 2vw;
+    border-bottom: 1px solid var(--main-color);
+    display: inline-block;
+}
+
+.text-title i {
+    margin-right: 10px;
+}
+
+
+.img-title li:nth-child(2) {
+    margin: 0 5vw;
+}
+
+.img-title li img {
+    width: 7vw;
+    height: 10vw;
+    background-size: cover;
+}
+
+li.list0 {
+    background-position-x: 0px;
+    background-position-y: 0px;
+}
+
+li.list1 {
+    background-position-x: -100px;
+    background-position-y: 0px;
+}
+
+li.list2 {
+    background-position-x: -200px;
+    background-position-y: 0px;
+}
+
+li.list3 {
+    background-position-x: -300px;
+    background-position-y: 0px;
+}
+
+li.list4 {
+    background-position-x: 0px;
+    background-position-y: -100px;
+}
+
+li.list5 {
+    background-position-x: -100px;
+    background-position-y: -100px;
+}
+
+li.list6 {
+    background-position-x: -200px;
+    background-position-y: -100px;
+}
+
+li.list7 {
+    background-position-x: -300px;
+    background-position-y: -100px;
+}
+
+li.list8 {
+    background-position-x: 0px;
+    background-position-y: -200px;
+}
+
+li.list9 {
+    background-position-x: -100px;
+    background-position-y: -200px;
+}
+
+li.list10 {
+    background-position-x: -200px;
+    background-position-y: -200px;
+}
+
+li.list11 {
+    background-position-x: -300px;
+    background-position-y: -200px;
+}
+
+li.list12 {
+    background-position-x: 0px;
+    background-position-y: -300px;
+}
+
+li.list13 {
+    background-position-x: -100px;
+    background-position-y: -300px;
+}
+
+li.list14 {
+    background-position-x: -200px;
+    background-position-y: -300px;
+}
+
+li.list15 {
+    background-position-x: -300px;
+    background-position-y: -300px;
+}
